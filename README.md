@@ -7,7 +7,7 @@ In A3 we have made significant in terms of user experience with new GUI and also
 
 As we promised in the A2 version, "Future revisions and additions could improve versatility", we have delivered on that promise.
 
-In assignment 4 we separated and each team member worked on furthering the chatbot individually. You can find a list of the features and improvements in A4 further down in the document.
+<a href="https://github.com/AlePPisa/chat-bot/edit/main/README.md#a4-features-and-improvements" target="_blank">***A4 Changes***</a>. In assignment 4 we separated and each team member worked on furthering the chatbot individually. 
 
 The MIT liscence is in this same direcory and is named <a href="https://github.com/Software-Engineering-Group-4-Maamy/chat-bot/blob/main/LICENSE" target="_blank">LICENSE</a>.
 
