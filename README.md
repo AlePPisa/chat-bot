@@ -133,11 +133,11 @@ More details about unit testing can be found [here](#unit-testing).
 
 2. Implemented the wikipedia API using the <a href="https://pypi.org/project/Wikipedia-API/" target="_blank">***wikipedia-api***</a> wrapper module. This allows the user to search basic information online if he so desires!
 
-	`U: Search wikipedia for dogs
+	```U: Search wikipedia for dogs
 	Botler: Here is the page for Dog on wikipedia: 
 	Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. They have been bred by humans for a long time, and were the first animals ever to be domesticated...
 	
-	If you are curious sir, you can read more here: https://simple.wikipedia.org/wiki/Dog`
+	If you are curious sir, you can read more here: https://simple.wikipedia.org/wiki/Dog ```
 
 ### Some Limitations
 1. The googletrans APi is only being used to translate from other languages into english, not the other way around.
