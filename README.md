@@ -56,6 +56,12 @@ A2: Terminal Conversation Flow
         B:Of course, sire, I will get you happy but first I'll need milk, brb
         U:how long will it take you to make me happy
         B:I cannot say, an hour, a week maybe a decade.  You must find it in yourself to wait
+	U: Translate tengo mucha hambre
+	B: I am very hungry
+	U: Search wikipedia for dogs
+	B: Here is the page for Dog on wikipedia: 
+		Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. They have been bred by humans for a long time, and were the first animals ever to be domesticated...
+		If you are curious sir, you can read more here: https://simple.wikipedia.org/wiki/Dog`
         U:quit
         B:Thank you for chatting with me
 	
@@ -125,10 +131,13 @@ More details about unit testing can be found [here](#unit-testing).
         U: Translate Hola amigo, como estas?
         Botler: Hello friend, how are you?
 
-2. Implemented the wikipedia API using the <a href="https://pypi.org/project/Wikipedia-API/" target="_blank">***wikipedia-api***</a> wrapper module
-        
-        U: Search wikipedia for dogs
-        Botler: Here is the page for Dog on wikipedia: Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. They have been bred by humans for a long time, and were the first animals ever to be domesticated... 				if you are curious sir, you can read more here: https://simple.wikipedia.org/wiki/Dog
+2. Implemented the wikipedia API using the <a href="https://pypi.org/project/Wikipedia-API/" target="_blank">***wikipedia-api***</a> wrapper module. This allows the user to search basic information online if he so desires!
+
+	`U: Search wikipedia for dogs
+	Botler: Here is the page for Dog on wikipedia: 
+	Dogs (Canis lupus familiaris) are domesticated mammals, not natural wild animals. They were originally bred from wolves. They have been bred by humans for a long time, and were the first animals ever to be domesticated...
+	
+	If you are curious sir, you can read more here: https://simple.wikipedia.org/wiki/Dog`
 
 ### Some Limitations
 1. The googletrans APi is only being used to translate from other languages into english, not the other way around.
